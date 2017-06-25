@@ -100,13 +100,13 @@ $(function() {
 	}
 
 	$.ajax({
-	  url : "http://api.wunderground.com/api/6ea7cf3bc006012f/geolookup/q/" + searchKeys['zip_code'] + ".json", 
+	  url : "http://api.wunderground.com/api/APIKEY/geolookup/q/" + searchKeys['zip_code'] + ".json", 
 	  dataType : "jsonp",
 	  success : cityState
 	});
 
 	$.ajax({
-		url: "http://api.wunderground.com/api/3def017e019b33b2/forecast10day/q/" + searchKeys['zip_code'] + ".json",
+		url: "http://api.wunderground.com/api/APIKEY/forecast10day/q/" + searchKeys['zip_code'] + ".json",
 		dataType: "jsonp",
 		success: getForecast
 	});
