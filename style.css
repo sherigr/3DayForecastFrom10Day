@@ -1,0 +1,65 @@
+html, body {
+	font-family: helvetica;
+}
+
+h1, h2,, h3, h4, h5, h6, p {
+	font-family: helvetica;
+}
+
+/* header*/
+#weather-location {
+	margin-top: 20px;
+	padding-top: 20px;
+	color: #AEAEA8;
+	font-size: 26px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+
+.day-background {
+	background-color: #4A8BB4;
+	height: 30px;
+	padding: 5px 0 5px 10px;
+  color: white;
+}
+/* container for each day*/
+.days-container {
+	height: 300px;
+	width: 250px;
+	float: left;
+	margin-right: 30px;
+	color: #898980;
+}
+
+.img-icon {
+	display: inline-block;
+	float:left;
+}
+
+.imgDiv{
+		width: 30%;
+		margin-right: 15px;
+		margin-left: 10px;
+}
+
+#weather-content {
+	float: left;
+	width: 70%;
+	margin-left: 20%;
+}
+
+p strong {
+	font-weight: bold;
+	color: #4c4c4b;
+}
+
+.weather-content {
+	float:left;
+	width: 70%;
+	margin-left: 5%;
+}
+
+.weather-content p {
+	margin-top: 5px;
+}
