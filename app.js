@@ -115,7 +115,6 @@ $(function() {
 }); // End document ready function
 
 
-
 function dayName(info, i) {
   var dayName = document.getElementsByClassName('dayName')[i];
     dayName.className += ' day-background';
