@@ -8,6 +8,7 @@ For example, if the file is index.html, it should be reactive to: <br /> index.h
 - Use API data to create a page
 - The 'zip_code' param should be use as part of the API request
 - The 'date' param should be use to extract the corresponding forecasts from the API response (assume the merged in "date" will be within the next ten days)
+- If search date is current day, first day should show "Today" instead of day of week
 - Use Helvetica for all fonts instead of what is in the image 
 - Use icons from provided link
 - If the page must error out, it should appear as a blank page (completely blank)
