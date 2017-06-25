@@ -19,6 +19,7 @@ for(var i = 0; i < querySplit.length; i++) {
 }
 
 // Check to see if valid search date for 10 day forecast
+  // Even though assumption is for valid date wanted to add function that doesn't take in assumption
 function isValidDate() {
 	// Get the search date entered
 	var date = searchKeys['date'];
